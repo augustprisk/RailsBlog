@@ -12,6 +12,5 @@ jobs:
       - run:
           name: Which bundler?
           command: sudo gem update --system
-          command: bin/rails test test/models/article_test.rb:8
       - ruby/bundle-install
       
