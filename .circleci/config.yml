@@ -15,4 +15,4 @@ jobs:
       - ruby/bundle-install
       -run:
           name: testing
-          comman: bin/rails test test/models/article_test.rb:8
+          command: bin/rails test test/models/article_test.rb:8
